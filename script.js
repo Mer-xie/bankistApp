@@ -199,7 +199,6 @@ const startLogoutTimer= function(){
   
     if(time === 0){
       clearInterval(timer);
-      labelWelcome.textContent = "Login to get started";
       containerApp.classList.remove('see');
     }
 
@@ -339,6 +338,7 @@ btnClose.addEventListener('click', function (e) {
 
     // Hide UI
     containerApp.classList.add('hide');
+    labelWelcome.textContent = "Login to get started";
   }
 
   inputCloseUsername.value = inputClosePin.value = '';
