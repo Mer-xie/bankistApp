@@ -295,3 +295,9 @@ h2 {
 .timer {
   font-weight: 600;
 }
+.see{
+  opacity: 1;
+}
+.hide{
+  opacity: 0;
+}
